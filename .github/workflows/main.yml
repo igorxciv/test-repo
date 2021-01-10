@@ -30,5 +30,8 @@ jobs:
     - name: Run the tests
       run: npm test
 
+    - name: Say molodets
+      run: echo "OH KAKOI YA MOLODETS!"
+
     - name: Build
       run: npm run build
